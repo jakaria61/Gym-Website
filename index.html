@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym-Website</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            /*  css reset*/
+            margin: 0px;
+            padding: 0px;
+            background: url(image/like.jpg);
+        }
+
+        .left {
+           
+            display: inline-block;
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            color: white;
+        }
+
+        .left img {
+            width: 81px;
+
+
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            
+        }
+
+        .right {
+            
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+
+        }
+        .right a:hover{
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            text-decoration: none;
+            padding: 5px;
+            color: white;
+        }
+
+        .navbar li a:hover {
+
+            color: yellow;
+        }
+
+        .btn {
+            background-color: black;
+            margin: 10px 12px;
+            padding: 4px 10px;
+            border: 2px solid pink;
+            color: white;
+        }
+
+        .container {
+            color: white;
+            border: 6px solid green;
+            margin: 150px 62px;;
+            padding: 44px 45px;
+            width: 33%;
+            border-radius: 29px;
+        }
+        .dd{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 35px;
+            color: yellowgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box logo  -->
+        <div class="left">
+            <img src="image/dumbel.png" alt="remote photo">
+            <div>
+                JAK_GYM
+            </div>
+        </div>
+        <!-- middile box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li> <a href="">Home</a> </li>
+                <li> <a target="_blank" href="https://www.facebook.com/samim.jakaria.5/">Contact Us</a> </li>
+                <li> <a href="">Fitness Calculator</a> </li>
+                <li> <a href="">About</a> </li>
+            </ul>
+        </div>
+        <!-- right box for some buttons -->
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn"> <a target="_blank" href="https://www.gmail.com/">Email Us</a> </button>
+        </div>
+    </header>
+
+    <div class="container">
+        <p class="dd">Join the best GYM in khulna</p>
+        <hr>
+      <p>Name</p>  <input type="textbox" name="name" id="name">
+      <p>Age</p> <input type="text" name="age" id="">
+      <p>Gender</p><input type="text" name="" id="">
+      <p>Phone</p><input type="text" name="" id="">
+      <p>Gmail</p><input type="text" name="" id=""> <br>
+      <button>Submit</button>
+    </div>
+
+</body>
+
+</html>
